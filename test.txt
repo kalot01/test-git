@@ -1,1 +1,5 @@
 veuillez vous connecter à la branche dev
+1- Créer une branche par la commande:
+git branch dev
+2-Connexter à la branche:
+git checkout dev
