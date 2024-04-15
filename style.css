@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pub {
+    width: 90%;
+    max-width: 500px;
+}
+
+img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bakery,
+.location_time {
+    display: flex;
+    flex-direction: column;
+}
+
+.bakery_type {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.bakery_name {
+    font-size: 30px;
+}
+
+.location,
+.time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.location img,
+.time img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.rank {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rank img {
+    width: 100px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.check span {
+    color: rgb(196, 60, 60);
+    font-size: 40px;
+}
+
+.check button {
+    background-color: rgb(9, 101, 177);
+    border: none;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width:440px) {
+    .bakery_name {
+        font-size: 20px;
+    }
+
+    .bakery_type {
+        font-size: 15px;
+    }
+
+    .check span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:440px) {
+    .check {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+}
