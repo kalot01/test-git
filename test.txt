@@ -1,2 +1,1 @@
-Veuillez créer une branche avec votre nom-prénom ou vous écrivez seulement le code suivant dans le fichier test.txt puis le push dans le github et lancer une pull request.
-Le code :26669603
+26669603
